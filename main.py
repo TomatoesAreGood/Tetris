@@ -5,7 +5,6 @@ import pygame, random
 
 pygame.init()
 
-
 class Game:
     def __init__(self, board, piece, pieces_list, held_piece):
         self.board = board
@@ -307,13 +306,13 @@ COLOURS = {
     "Z": (220, 50, 19),
     "T": (128, 0, 128)
 }
-TITLE = pygame.image.load(r"C:\Users\jonwu\Downloads\pixil-frame-0 (5).png")
-HOLD = pygame.image.load(r"C:\Users\jonwu\Downloads\pixil-frame-0 (6).png")
-NEXT = pygame.image.load(r"C:\Users\jonwu\Downloads\pixil-frame-0 (7).png") 
-ICON = pygame.image.load(r"C:\Users\jonwu\Downloads\pixilart-drawing.png")
-SCORE = pygame.image.load(r"C:\Users\jonwu\Downloads\score.png")
-LEVEL = pygame.image.load(r"C:\Users\jonwu\Downloads\level.png")
-LINES = pygame.image.load(r"C:\Users\jonwu\Downloads\lines.png")
+TITLE = pygame.image.load(r"Assets/logo.png")
+HOLD = pygame.image.load(r"Assets/hold.png")
+NEXT = pygame.image.load(r"Assets/next.png")
+ICON = pygame.image.load(r"Assets/logo.png")
+SCORE = pygame.image.load(r"Assets/score.png")
+LEVEL = pygame.image.load(r"Assets/level.png")
+LINES = pygame.image.load(r"Assets/lines.png")
 
 window = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 clock = pygame.time.Clock()
